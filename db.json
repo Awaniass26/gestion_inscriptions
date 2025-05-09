@@ -1,0 +1,59 @@
+[
+    {
+      "nom": "DIALLO",
+      "prenom": "Awa",
+      "classe": "L1 MAE",
+      "matricule": "MAE001",
+      "email": "awa.diallo@example.com"
+    },
+    {
+      "nom": "NDIAYE",
+      "prenom": "Moussa",
+      "classe": "L2 MAE",
+      "matricule": "MAE002",
+      "email": "moussa.ndiaye@example.com"
+    },
+    {
+      "nom": "SOW",
+      "prenom": "Fatou",
+      "classe": "L3 MAE",
+      "matricule": "MAE003",
+      "email": "fatou2@gmail.com"
+    },
+    {
+      "nom": "DIOP",
+      "prenom": "Aissatou",
+      "classe": "L1 MAE",
+      "matricule": "MAE004",
+      "email": "aiss4@gmail.com"
+    },
+    {
+      "nom": "BA",
+      "prenom": "Ibrahima",
+      "classe": "L2 MAE",
+      "matricule": "MAE005",
+      "email": "ib@gmail.com"
+    },
+    {
+      "nom": "KONATE",
+      "prenom": "Mamadou",
+      "classe": "L3 MAE",
+      "matricule": "MAE006",
+      "email": "konate23@gmail.com"
+    },
+    {
+      "nom": "SARR",
+      "prenom": "Aissatou",
+      "classe": "L1 MAE",
+      "matricule": "MAE007",
+      "email": "sarr@gmail.com"
+    },
+    {
+      "nom": "LY",
+      "prenom": "Mouhamed",
+      "classe": "L2 MAE",
+      "matricule": "MAE008",
+      "email": "mouha55@gmail.com"
+    }
+  ]
+  
