@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/student.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://localhost:3000/api/inscription';
+static const String baseUrl = 'http://localhost:3000/inscription';
 
   static Future<List<Student>> fetchStudents({String? classe}) async {
     final uri = Uri.parse(classe != null

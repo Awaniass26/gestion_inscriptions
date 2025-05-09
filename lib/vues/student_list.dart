@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import '../models/student.dart';
 import '../services/api_service.dart';
 
-class StudentListScreen extends StatefulWidget {
-  const StudentListScreen({Key? key}) : super(key: key);
+class StudentList extends StatefulWidget {
+  const StudentList({Key? key}) : super(key: key);
 
   @override
-  State<StudentListScreen> createState() => _StudentListScreenState();
+  State<StudentList> createState() => _StudentListState();
 }
 
-class _StudentListScreenState extends State<StudentListScreen> {
+class _StudentListState extends State<StudentList> {
   List<Student> students = [];
   bool isLoading = true;
   String? selectedClasse;
@@ -32,7 +32,6 @@ class _StudentListScreenState extends State<StudentListScreen> {
         selectedClasse = classe;
       });
     } catch (e) {
-      // Gérer l'erreur
     } finally {
       setState(() {
         isLoading = false;
@@ -54,7 +53,7 @@ class _StudentListScreenState extends State<StudentListScreen> {
           ],
         ),
       ),
-    );
+    ); 
   }
 
   @override
